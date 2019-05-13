@@ -1,0 +1,65 @@
+version: "3"
+
+services:
+  mongodb:
+    restart: always
+    build: "./containers/mongo"
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_db:/bitnami:rw
+
+    environment:
+      - MONGODB_USERNAME=admin
+      - MONGODB_PASSWORD=123456
+      - MONGODB_DATABASE=gidoc
+
+  mongodb_backup:
+    restart: always
+    build: "./containers/mongo_backup"
+    container_name: mongodb_backup
+    volumes:
+      - mongo_db:/bitnami:rw
+      - mongo_backup:/backup:rw
+      - mongo_log:/var/log/mongo
+ 
+  server:
+    restart: always
+    container_name: server
+    # image: "node:8"
+    build: "./containers/server"
+    user: "node"
+    working_dir: /home/node/app
+    environment:
+      - VIRTUAL_HOST=docker.online2study.online
+      - VIRTUAL_PORT=3000
+      - SERVER=true
+      - MONGO_HOST=mongodb
+    volumes:
+      - ./volume/app:/home/node/app
+      - ./script/run-server.sh:/home/node/app/run-server.sh
+      - ./script/wait-for-server.sh:/home/node/app/wait-for-server.sh
+    # expose:
+    #   - "3000"
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongodb
+
+    command: ["./wait-for-server.sh", "mongodb:27017", "--", "./run-server.sh"]
+  
+volumes:
+  mongo_db:
+    driver: local-persist
+    driver_opts:
+      mountpoint: "/volume/mongo/db"
+  mongo_backup:
+    driver: local-persist
+    driver_opts:
+      mountpoint: "/volume/mongo/backup"
+  mongo_log:
+    driver: local-persist
+    driver_opts:
+      mountpoint: "/volume/mongo/log"
+
