@@ -59,3 +59,14 @@ typings/
 
 # next.js build output
 .next
+
+#uploads, output folder
+volume/app/uploads/
+volume/app/output/
+
+volume/app/python/lib/__pycache__/
+*.pyc
+
+volume/app/run-server.sh
+volume/app/wait-for-server.sh
+

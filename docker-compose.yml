@@ -15,14 +15,14 @@ services:
       - MONGODB_PASSWORD=123456
       - MONGODB_DATABASE=gidoc
 
-  mongodb_backup:
-    restart: always
-    build: "./containers/mongo_backup"
-    container_name: mongodb_backup
-    volumes:
-      - mongo_db:/bitnami:rw
-      - mongo_backup:/backup:rw
-      - mongo_log:/var/log/mongo
+  # mongodb_backup:
+  #   restart: always
+  #   build: "./containers/mongo_backup"
+  #   container_name: mongodb_backup
+  #   volumes:
+  #     - mongo_db:/bitnami:rw
+  #     - mongo_backup:/backup:rw
+  #     - mongo_log:/var/log/mongo
  
   server:
     restart: always
