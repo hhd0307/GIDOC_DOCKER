@@ -59,4 +59,22 @@ router.post('/', (req, res) => {
     })
 });
 
+router.post('/human', (req, res) => {
+    let {region, scriptCode} = req.body;
+
+    human_voice_file = 'voices/' + region + '/' + scriptCode + '.wav'
+    try {
+        if (fs.existsSync(human_voice_file)) {
+            sendFile(human_voice_file, res);
+        }
+        else {
+            console.log("file not found");
+            res.status(404).send();
+        }
+      } catch(err) {
+        console.error(err);
+      }
+    
+});
+
 module.exports = router;

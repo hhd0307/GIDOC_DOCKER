@@ -1,5 +1,5 @@
 var mongoose= require('mongoose'),
-	error	= require('../configAndConstant/Error').SCRIPT_ERROR;
+	error	= require('../configAndConstant/Error');
 
 var scriptSch= mongoose.Schema({
 	script: {
@@ -15,15 +15,17 @@ module.exports.saveScript= function(scr, callback){
 }
 
 module.exports.findInListId= function(id1, callback){
-	script.find({'_id': { $in: [
-		mongoose.Types.ObjectId(id1),
-	]}}, function(err, docs){
-		if (docs == null) {
-			callback(error.SCRIPT_ERROR);
-		} else {
-			callback(error.null);
-		}
-	});
+	if (id1 instanceof mongoose.Schema.Types.ObjectId) {
+		script.find({'_id': mongoose.Types.ObjectId(id1)}, function(err, docs){
+			if (docs == null || docs.length == 0) {
+				callback(error.SCRIPT_ERROR);
+			} else {
+				callback(error.null);
+			}
+		});
+	} else {
+		callback(error.SCRIPT_ERROR)
+	}
 }
 
 module.exports.findById= function(id, callback){
