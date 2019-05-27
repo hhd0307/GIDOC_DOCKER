@@ -1,100 +1,300 @@
-{ "script" : "Nhiều nông dân khốn khổ vì bị cắt nước sạch." }
-{ "script" : "Tình trạng thiếu điện diễn ra nghiêm trọng tại địa bàn quận." }
-{ "script" : "Toàn bộ chi phí đều miễn phí cho đến khi bệnh nhân bình phục hoàn toàn." }
-{ "script" : "Mỗi sinh vật sinh ra trên thế giới đều có bố." }
-{ "script" : "Thậm chí có những loài làm mẹ theo những cách rất kỳ quặc." }
-{ "script" : "Chúng không được cung cấp đủ chất dinh dưỡng trong khẩu phần ăn." }
-{ "script" : "Chim cu có một cách rất độc đáo để không phải mệt nhọc khi chăm sóc con non." }
-{ "script" : "Có thể việc làm này là một minh họa có tính sơ khai của điều đó." }
-{ "script" : "Chuyến đi khiến nó xa khỏi nguồn thực phẩm." }
-{ "script" : "Vùng biển an toàn này cũng giúp cá voi yên tâm tiêu thụ nguồn sữa bổ dưỡng." }
-{ "script" : "Một chú ếch có khả năng leo trèo trên bề mặt kính trơn và phẳng." }
-{ "script" : "Người góa phụ đã cất giấu số tiền trong chiếc ghế bành cũ." }
-{ "script" : "Họ quyết định liên hệ địa chỉ trên và đem trả lại cho cụ bà vào ngày hôm sau." }
-{ "script" : "Ông chồng quá cố đã hiện thân trong ngôi nhà của chúng tôi." }
-{ "script" : "Gã khờ trở thành người hùng cứu giúp cháu bé." }
-{ "script" : "Kết quả mà anh nhận được lại là sự thất vọng lớn." }
-{ "script" : "Nhiều phụ nữ hắn cố liên lạc làm quen không hồi âm." }
-{ "script" : "Hầu hết đều bày tỏ thái độ khó chịu." }
-{ "script" : "Trong khi đó những người khác hoàn toàn phớt lờ." }
-{ "script" : "Chàng độc thân thừa nhận rằng việc tìm kiếm bạn khác giới sẽ dễ dàng hơn." }
-{ "script" : "Tất cả những gì tôi mong muốn là ai đó hãy cho tôi cơ hội gặp gỡ và nói chuyện." }
-{ "script" : "Thằng bé thoát chết thần kỳ khi ngã từ ban công của nhà mình xuống đất." }
-{ "script" : "Điểm tiếp đất là khu vực có nhiều cây phủ." }
-{ "script" : "Họ thực sự đã dằn vặt bản thân sau chuyện này." }
-{ "script" : "Tất cả chỉ diễn ra chưa đầy một phút." }
-{ "script" : "Đứa con trai rõ ràng đã mở cánh cửa ra trước hiên nhà." }
-{ "script" : "Mặc dù không có hai tay nhưng anh ấy vẫn chơi bóng bàn cực siêu." }
-{ "script" : "Ông dùng chân của mình tung bóng lên rồi đánh." }
-{ "script" : "Điều tốt đẹp nhất trong cuộc đời tôi chính là người vợ." }
-{ "script" : "Đó là nơi lão tìm thấy sự thành công lớn nhất của mình." }
-{ "script" : "Một chú cừu ở Thổ Nhĩ Kỳ có khuôn mặt giống người gây xôn xao dư luận." }
-{ "script" : "Cây thiên tuế hơn mười năm tuổi bỗng trổ hoa đẹp mắt." }
-{ "script" : "Cô hóa đá trong giây lát trước khi thét lớn và tìm mọi cách để gỡ con trăn ra." }
-{ "script" : "May mắn là con rắn không có nọc độc nên bà nhanh chóng được xuất viện sau đó." }
-{ "script" : "Cảnh sát và nhân viên trung tâm động vật hoang dã được gọi đến hiện trường." }
-{ "script" : "Tâm lý của Lích đã bị ảnh hưởng sau tai nạn hy hữu này." }
-{ "script" : "Độ xác thực của đoạn phim này vẫn còn là một dấu hỏi lớn." }
-{ "script" : "Vật thể bay từ từ hạ độ cao xuống gần trại lính và khai hỏa ác liệt." }
-{ "script" : "Ngay sau đó là những tiếng nổ liên tiếp và khói lửa bốc lên ngùn ngụt." }
-{ "script" : "Có thể quan sát thấy nhiều xe thiết giáp được sử dụng cho chiến dịch." }
-{ "script" : "Quân đội chưa từng đưa ra bất cứ báo cáo nào về giả thuyết trên." }
-{ "script" : "Chuyên gia quân sự nhận định đấy là loại vũ khí tối tân mới được phát triển." }
-{ "script" : "Có nhiều dấu hiệu cho thấy đây là sản phẩm của trí tuệ con người ở trái đất." }
-{ "script" : "Hình dáng của nó rất giống với máy bay không người lái." }
-{ "script" : "Nhiều người lại cho đó là dàn dựng nhờ kỹ xảo máy tính mà thôi." }
-{ "script" : "Con mèo đen được cho là đã chết sau khi biến mất trong thảm họa kép." }
-{ "script" : "Tuy nhiên, một điều thần kỳ và hết sức bất ngờ đã đến." }
-{ "script" : "Cặp vợ chồng phát hiện con gà có đeo vòng cổ trong khu rừng thông." }
-{ "script" : "Thành phố cũng bị tàn phá bởi động đất và sóng thần." }
-{ "script" : "Họ vẫn rất vui mừng và hạnh phúc khi được đoàn tụ với con vật cưng." }
-{ "script" : "Người ta không tìm thấy xác cũng như dấu hiệu nào khác của chú." }
-{ "script" : "Không ít người sẽ giật mình vì ngoại hình của nó giống hệt chuột." }
-{ "script" : "Đây là biện pháp ngụy trang đặc biệt của loài sâu bướm để chống kẻ thù và tự vệ." }
-{ "script" : "Mọi người có thể nhận ra sự khác biệt của con dơi này." }
-{ "script" : "Ấu trùng hóa thành loài bướm đêm có kích cỡ lớn." }
-{ "script" : "Loài tê giác đặc biệt này đã trở nên rất hạn chế và khó bắt gặp ngoài thiên nhiên." }
-{ "script" : "Chiếc máy bay chở khách cũ đã được biến thành một khách sạn sang trọng." }
-{ "script" : "Các đồ đạc bên trong được làm bằng gỗ, gần gũi với môi trường xung quanh." }
-{ "script" : "Du khách có thể ngắm nhìn núi rừng từ cả trong phòng ngủ lẫn khu vực sân thượng." }
-{ "script" : "Tập truyện chỉ có thể đọc được bằng một chiếc kính hiển vi." }
-{ "script" : "Các nghệ nhân đã sử dụng kỹ thuật đặc biệt để khắc lên sợi tóc." }
-{ "script" : "Việc viết truyện yêu cầu nghệ nhân phải có đôi tay vững chắc và khéo léo." }
-{ "script" : "Màn dàn dựng dọa ma hoàn hảo khiến cho anh bạn đi cùng xe có một phen hú vía." }
-{ "script" : "Người xem sẽ không thể nhịn cười khi xem đoạn phim này." }
-{ "script" : "Dân làng nghe thấy những âm thanh lớn rơi trên mái nhà của mình." }
-{ "script" : "Ban đầu họ tưởng rằng đó là một cơn mưa đá." }
-{ "script" : "Nhiều người đã nhanh chóng đi thu nhặt số cá này." }
-{ "script" : "Phần lớn số lượng cua vẫn có thể sử dụng để làm thức ăn." }
-{ "script" : "Hiện tượng xảy ra khi một trận lốc xoáy xuất hiện trên mặt nước tương đối nông." }
-{ "script" : "Người đàn ông đã khiến gia đình, người thân và bạn bè bị sốc." }
-{ "script" : "Anh đã đem lòng yêu cụ bà bất chấp sự chênh lệch tuổi tác quá lớn." }
-{ "script" : "Hắn chưa từng hò hẹn với người phụ nữ nào cùng tuổi với mình hay ít tuổi hơn." }
-{ "script" : "Họ có những giây phút hạnh phúc bên nhau giống bao cặp đôi uyên ương khác." }
-{ "script" : "Gã quyết định đưa vụ việc ra tòa sau khi nhà chức trách bác bỏ đề xuất hòa giải." }
-{ "script" : "Tôi phải lòng chiếc máy tính một cách rất tự nhiên." }
-{ "script" : "Họ đã kỳ thị tôi khi từ chối lời đề nghị chính đáng này." }
-{ "script" : "Hãng không cài chế độ chặn những hình ảnh này trên máy tính xách tay." }
-{ "script" : "Bộ ảnh phác họa những giây phút vui tươi, hài hước trong cuộc sống thường ngày." }
-{ "script" : "Tôi cảm thấy mình quá đuối sức và mất ngủ." }
-{ "script" : "Nàng dùng một số thủ thuật chỉnh sửa và ghép ảnh hai bố con với nhau." }
-{ "script" : "Có khi mất cả ngày mới chỉnh xong một bức ảnh." }
-{ "script" : "Vợ anh luôn hỗ trợ chồng trong khâu hậu trường." }
-{ "script" : "Nữ sinh vẫn bình tĩnh học bài dù mắc kẹt dưới bánh xe tải." }
-{ "script" : "Cô lấy từ điển điện tử ra để học tiếng Anh trong khi chờ đội cứu hộ tới hiện trường." }
-{ "script" : "Nó gặp phải tai nạn trong khi đi xe máy trên đường tới trường." }
-{ "script" : "Nàng dường như không muốn lãng phí thời gian quý báu." }
-{ "script" : "Nghị lực mạnh mẽ của cô khiến nhiều người phải ngạc nhiên." }
-{ "script" : "Lực lượng công an không thể tin được vào những gì đang diễn ra ở đó." }
-{ "script" : "Chị may mắn không bị vết thương nào nghiêm trọng." }
-{ "script" : "Chính vụ tai nạn khiến cho gã nhận thấy cuộc đời là quá ngắn ngủi." }
-{ "script" : "Tôi rất đau đớn nhưng vẫn cố gắng để giữ cho tâm trí của mình không bị ảnh hưởng." }
-{ "script" : "Điều tốt nhất mà chúng ta có thể làm là học tập thật tốt." }
-{ "script" : "Học từ vựng tiếng Pháp đã giúp tôi rất nhiều trong việc xoa dịu nỗi đau." }
-{ "script" : "Hinh đang nỗ lực để kiếm được học bổng các trường đại học danh tiếng khác." }
-{ "script" : "Lão suốt ngày chỉ vùi mình bên đống tro ấm để ngủ và rất ngại tắm rửa." }
-{ "script" : "Ông đang bị một hội chứng rối loạn tâm lý." }
-{ "script" : "Vào ban đêm, ông trèo lên một chiếc giường có ủ sẵn than hồng để ngủ." }
-{ "script" : "Cách đây đã nhiều năm, tôi quyết định từ bỏ công việc của mình." }
-{ "script" : "Một ngôi nhà nhỏ bỏ hoang nằm trong khu nông trại ở thị trấn Sa Pa." }
-{ "script" : "Trông tôi như một con quỷ dữ nhưng mọi người vẫn cố giúp đỡ tôi." }
+{ "script" : "Nhiều nông dân khốn khổ vì bị cắt nước sạch.",
+  "scriptCode" : "001"
+ }
+{ "script" : "Tình trạng thiếu điện diễn ra nghiêm trọng tại địa bàn quận.",
+  "scriptCode" : "002"
+ }
+{ "script" : "Toàn bộ chi phí đều miễn phí cho đến khi bệnh nhân bình phục hoàn toàn.",
+  "scriptCode" : "003"
+ }
+{ "script" : "Mỗi sinh vật sinh ra trên thế giới đều có bố.",
+  "scriptCode" : "004"
+ }
+{ "script" : "Thậm chí có những loài làm mẹ theo những cách rất kỳ quặc.",
+  "scriptCode" : "005"
+ }
+{ "script" : "Chúng không được cung cấp đủ chất dinh dưỡng trong khẩu phần ăn.",
+  "scriptCode" : "006"
+ }
+{ "script" : "Chim cu có một cách rất độc đáo để không phải mệt nhọc khi chăm sóc con non.",
+  "scriptCode" : "007"
+ }
+{ "script" : "Có thể việc làm này là một minh họa có tính sơ khai của điều đó.",
+  "scriptCode" : "008"
+ }
+{ "script" : "Chuyến đi khiến nó xa khỏi nguồn thực phẩm.",
+  "scriptCode" : "009"
+ }
+{ "script" : "Vùng biển an toàn này cũng giúp cá voi yên tâm tiêu thụ nguồn sữa bổ dưỡng.",
+  "scriptCode" : "010"
+ }
+{ "script" : "Một chú ếch có khả năng leo trèo trên bề mặt kính trơn và phẳng.",
+  "scriptCode" : "011"
+ }
+{ "script" : "Người góa phụ đã cất giấu số tiền trong chiếc ghế bành cũ.",
+  "scriptCode" : "012"
+ }
+{ "script" : "Họ quyết định liên hệ địa chỉ trên và đem trả lại cho cụ bà vào ngày hôm sau.",
+  "scriptCode" : "013"
+ }
+{ "script" : "Ông chồng quá cố đã hiện thân trong ngôi nhà của chúng tôi.",
+  "scriptCode" : "014"
+ }
+{ "script" : "Gã khờ trở thành người hùng cứu giúp cháu bé.",
+  "scriptCode" : "015"
+ }
+{ "script" : "Kết quả mà anh nhận được lại là sự thất vọng lớn.",
+  "scriptCode" : "016"
+ }
+{ "script" : "Nhiều phụ nữ hắn cố liên lạc làm quen không hồi âm.",
+  "scriptCode" : "017"
+ }
+{ "script" : "Hầu hết đều bày tỏ thái độ khó chịu.",
+  "scriptCode" : "018"
+ }
+{ "script" : "Trong khi đó những người khác hoàn toàn phớt lờ.",
+  "scriptCode" : "019"
+ }
+{ "script" : "Chàng độc thân thừa nhận rằng việc tìm kiếm bạn khác giới sẽ dễ dàng hơn.",
+  "scriptCode" : "020"
+ }
+{ "script" : "Tất cả những gì tôi mong muốn là ai đó hãy cho tôi cơ hội gặp gỡ và nói chuyện.",
+  "scriptCode" : "021"
+ }
+{ "script" : "Thằng bé thoát chết thần kỳ khi ngã từ ban công của nhà mình xuống đất.",
+  "scriptCode" : "022"
+ }
+{ "script" : "Điểm tiếp đất là khu vực có nhiều cây phủ.",
+  "scriptCode" : "023"
+ }
+{ "script" : "Họ thực sự đã dằn vặt bản thân sau chuyện này.",
+  "scriptCode" : "024"
+ }
+{ "script" : "Tất cả chỉ diễn ra chưa đầy một phút.",
+  "scriptCode" : "025"
+ }
+{ "script" : "Đứa con trai rõ ràng đã mở cánh cửa ra trước hiên nhà.",
+  "scriptCode" : "026"
+ }
+{ "script" : "Mặc dù không có hai tay nhưng anh ấy vẫn chơi bóng bàn cực siêu.",
+  "scriptCode" : "027"
+ }
+{ "script" : "Ông dùng chân của mình tung bóng lên rồi đánh.",
+  "scriptCode" : "028"
+ }
+{ "script" : "Điều tốt đẹp nhất trong cuộc đời tôi chính là người vợ.",
+  "scriptCode" : "029"
+ }
+{ "script" : "Đó là nơi lão tìm thấy sự thành công lớn nhất của mình.",
+  "scriptCode" : "030"
+ }
+{ "script" : "Một chú cừu ở Thổ Nhĩ Kỳ có khuôn mặt giống người gây xôn xao dư luận.",
+  "scriptCode" : "031"
+ }
+{ "script" : "Cây thiên tuế hơn mười năm tuổi bỗng trổ hoa đẹp mắt.",
+  "scriptCode" : "032"
+ }
+{ "script" : "Cô hóa đá trong giây lát trước khi thét lớn và tìm mọi cách để gỡ con trăn ra.",
+  "scriptCode" : "033"
+ }
+{ "script" : "May mắn là con rắn không có nọc độc nên bà nhanh chóng được xuất viện sau đó.",
+  "scriptCode" : "034"
+ }
+{ "script" : "Cảnh sát và nhân viên trung tâm động vật hoang dã được gọi đến hiện trường.",
+  "scriptCode" : "035"
+ }
+{ "script" : "Tâm lý của Lích đã bị ảnh hưởng sau tai nạn hy hữu này.",
+  "scriptCode" : "036"
+ }
+{ "script" : "Độ xác thực của đoạn phim này vẫn còn là một dấu hỏi lớn.",
+  "scriptCode" : "037"
+ }
+{ "script" : "Vật thể bay từ từ hạ độ cao xuống gần trại lính và khai hỏa ác liệt.",
+  "scriptCode" : "038"
+ }
+{ "script" : "Ngay sau đó là những tiếng nổ liên tiếp và khói lửa bốc lên ngùn ngụt.",
+  "scriptCode" : "039"
+ }
+{ "script" : "Có thể quan sát thấy nhiều xe thiết giáp được sử dụng cho chiến dịch.",
+  "scriptCode" : "040"
+ }
+{ "script" : "Quân đội chưa từng đưa ra bất cứ báo cáo nào về giả thuyết trên.",
+  "scriptCode" : "041"
+ }
+{ "script" : "Chuyên gia quân sự nhận định đấy là loại vũ khí tối tân mới được phát triển.",
+  "scriptCode" : "042"
+ }
+{ "script" : "Có nhiều dấu hiệu cho thấy đây là sản phẩm của trí tuệ con người ở trái đất.",
+  "scriptCode" : "043"
+ }
+{ "script" : "Hình dáng của nó rất giống với máy bay không người lái.",
+  "scriptCode" : "044"
+ }
+{ "script" : "Nhiều người lại cho đó là dàn dựng nhờ kỹ xảo máy tính mà thôi.",
+  "scriptCode" : "045"
+ }
+{ "script" : "Con mèo đen được cho là đã chết sau khi biến mất trong thảm họa kép.",
+  "scriptCode" : "046"
+ }
+{ "script" : "Tuy nhiên, một điều thần kỳ và hết sức bất ngờ đã đến.",
+  "scriptCode" : "047"
+ }
+{ "script" : "Cặp vợ chồng phát hiện con gà có đeo vòng cổ trong khu rừng thông.",
+  "scriptCode" : "048"
+ }
+{ "script" : "Thành phố cũng bị tàn phá bởi động đất và sóng thần.",
+  "scriptCode" : "049"
+ }
+{ "script" : "Họ vẫn rất vui mừng và hạnh phúc khi được đoàn tụ với con vật cưng.",
+  "scriptCode" : "050"
+ }
+{ "script" : "Người ta không tìm thấy xác cũng như dấu hiệu nào khác của chú.",
+  "scriptCode" : "051"
+ }
+{ "script" : "Không ít người sẽ giật mình vì ngoại hình của nó giống hệt chuột.",
+  "scriptCode" : "052"
+ }
+{ "script" : "Đây là biện pháp ngụy trang đặc biệt của loài sâu bướm để chống kẻ thù và tự vệ.",
+  "scriptCode" : "053"
+ }
+{ "script" : "Mọi người có thể nhận ra sự khác biệt của con dơi này.",
+  "scriptCode" : "054"
+ }
+{ "script" : "Ấu trùng hóa thành loài bướm đêm có kích cỡ lớn.",
+  "scriptCode" : "055"
+ }
+{ "script" : "Loài tê giác đặc biệt này đã trở nên rất hạn chế và khó bắt gặp ngoài thiên nhiên.",
+  "scriptCode" : "056"
+ }
+{ "script" : "Chiếc máy bay chở khách cũ đã được biến thành một khách sạn sang trọng.",
+  "scriptCode" : "057"
+ }
+{ "script" : "Các đồ đạc bên trong được làm bằng gỗ, gần gũi với môi trường xung quanh.",
+  "scriptCode" : "058"
+ }
+{ "script" : "Du khách có thể ngắm nhìn núi rừng từ cả trong phòng ngủ lẫn khu vực sân thượng.",
+  "scriptCode" : "059"
+ }
+{ "script" : "Tập truyện chỉ có thể đọc được bằng một chiếc kính hiển vi.",
+  "scriptCode" : "060"
+ }
+{ "script" : "Các nghệ nhân đã sử dụng kỹ thuật đặc biệt để khắc lên sợi tóc.",
+  "scriptCode" : "061"
+ }
+{ "script" : "Việc viết truyện yêu cầu nghệ nhân phải có đôi tay vững chắc và khéo léo.",
+  "scriptCode" : "062"
+ }
+{ "script" : "Màn dàn dựng dọa ma hoàn hảo khiến cho anh bạn đi cùng xe có một phen hú vía.",
+  "scriptCode" : "063"
+ }
+{ "script" : "Người xem sẽ không thể nhịn cười khi xem đoạn phim này.",
+  "scriptCode" : "064"
+ }
+{ "script" : "Dân làng nghe thấy những âm thanh lớn rơi trên mái nhà của mình.",
+  "scriptCode" : "065"
+ }
+{ "script" : "Ban đầu họ tưởng rằng đó là một cơn mưa đá.",
+  "scriptCode" : "066"
+ }
+{ "script" : "Nhiều người đã nhanh chóng đi thu nhặt số cá này.",
+  "scriptCode" : "067"
+ }
+{ "script" : "Phần lớn số lượng cua vẫn có thể sử dụng để làm thức ăn.",
+  "scriptCode" : "068"
+ }
+{ "script" : "Hiện tượng xảy ra khi một trận lốc xoáy xuất hiện trên mặt nước tương đối nông.",
+  "scriptCode" : "069"
+ }
+{ "script" : "Người đàn ông đã khiến gia đình, người thân và bạn bè bị sốc.",
+  "scriptCode" : "070"
+ }
+{ "script" : "Anh đã đem lòng yêu cụ bà bất chấp sự chênh lệch tuổi tác quá lớn.",
+  "scriptCode" : "071"
+ }
+{ "script" : "Hắn chưa từng hò hẹn với người phụ nữ nào cùng tuổi với mình hay ít tuổi hơn.",
+  "scriptCode" : "072"
+ }
+{ "script" : "Họ có những giây phút hạnh phúc bên nhau giống bao cặp đôi uyên ương khác.",
+  "scriptCode" : "073"
+ }
+{ "script" : "Gã quyết định đưa vụ việc ra tòa sau khi nhà chức trách bác bỏ đề xuất hòa giải.",
+  "scriptCode" : "074"
+ }
+{ "script" : "Tôi phải lòng chiếc máy tính một cách rất tự nhiên.",
+  "scriptCode" : "075"
+ }
+{ "script" : "Họ đã kỳ thị tôi khi từ chối lời đề nghị chính đáng này.",
+  "scriptCode" : "076"
+ }
+{ "script" : "Hãng không cài chế độ chặn những hình ảnh này trên máy tính xách tay.",
+  "scriptCode" : "077"
+ }
+{ "script" : "Bộ ảnh phác họa những giây phút vui tươi, hài hước trong cuộc sống thường ngày.",
+  "scriptCode" : "078"
+ }
+{ "script" : "Tôi cảm thấy mình quá đuối sức và mất ngủ.",
+  "scriptCode" : "079"
+ }
+{ "script" : "Nàng dùng một số thủ thuật chỉnh sửa và ghép ảnh hai bố con với nhau.",
+  "scriptCode" : "080"
+ }
+{ "script" : "Có khi mất cả ngày mới chỉnh xong một bức ảnh.",
+  "scriptCode" : "081"
+ }
+{ "script" : "Vợ anh luôn hỗ trợ chồng trong khâu hậu trường.",
+  "scriptCode" : "082"
+ }
+{ "script" : "Nữ sinh vẫn bình tĩnh học bài dù mắc kẹt dưới bánh xe tải.",
+  "scriptCode" : "083"
+ }
+{ "script" : "Cô lấy từ điển điện tử ra để học tiếng Anh trong khi chờ đội cứu hộ tới hiện trường.",
+  "scriptCode" : "084"
+ }
+{ "script" : "Nó gặp phải tai nạn trong khi đi xe máy trên đường tới trường.",
+  "scriptCode" : "085"
+ }
+{ "script" : "Nàng dường như không muốn lãng phí thời gian quý báu.",
+  "scriptCode" : "086"
+ }
+{ "script" : "Nghị lực mạnh mẽ của cô khiến nhiều người phải ngạc nhiên.",
+  "scriptCode" : "087"
+ }
+{ "script" : "Lực lượng công an không thể tin được vào những gì đang diễn ra ở đó.",
+  "scriptCode" : "088"
+ }
+{ "script" : "Chị may mắn không bị vết thương nào nghiêm trọng.",
+  "scriptCode" : "089"
+ }
+{ "script" : "Chính vụ tai nạn khiến cho gã nhận thấy cuộc đời là quá ngắn ngủi.",
+  "scriptCode" : "090"
+ }
+{ "script" : "Tôi rất đau đớn nhưng vẫn cố gắng để giữ cho tâm trí của mình không bị ảnh hưởng.",
+  "scriptCode" : "091"
+ }
+{ "script" : "Điều tốt nhất mà chúng ta có thể làm là học tập thật tốt.",
+  "scriptCode" : "092"
+ }
+{ "script" : "Học từ vựng tiếng Pháp đã giúp tôi rất nhiều trong việc xoa dịu nỗi đau.",
+  "scriptCode" : "093"
+ }
+{ "script" : "Hinh đang nỗ lực để kiếm được học bổng các trường đại học danh tiếng khác.",
+  "scriptCode" : "094"
+ }
+{ "script" : "Lão suốt ngày chỉ vùi mình bên đống tro ấm để ngủ và rất ngại tắm rửa.",
+  "scriptCode" : "095"
+ }
+{ "script" : "Ông đang bị một hội chứng rối loạn tâm lý.",
+  "scriptCode" : "096"
+ }
+{ "script" : "Vào ban đêm, ông trèo lên một chiếc giường có ủ sẵn than hồng để ngủ.",
+  "scriptCode" : "097"
+ }
+{ "script" : "Cách đây đã nhiều năm, tôi quyết định từ bỏ công việc của mình.",
+  "scriptCode" : "098"
+ }
+{ "script" : "Một ngôi nhà nhỏ bỏ hoang nằm trong khu nông trại ở thị trấn Sa Pa.",
+  "scriptCode" : "099"
+ }
+{ "script" : "Trông tôi như một con quỷ dữ nhưng mọi người vẫn cố giúp đỡ tôi.",
+  "scriptCode" : "100"
+ }

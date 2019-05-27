@@ -7,7 +7,7 @@ var storage = multer.diskStorage({
 		cb(null,"./uploads")
 	},
 	filename: function(req, file, cb){
-		cb(null, file.fieldname + Math.floor(Math.random()*1000) + '-' + Date.now() + path.extname(file.originalname))
+		cb(null, file.fieldname + Date.now() + '-' + Math.floor(Math.random()*1000) + path.extname(file.originalname))
 	}
 });
 

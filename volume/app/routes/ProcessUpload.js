@@ -162,7 +162,7 @@ router.post("/", upload.fields(
 						}
 					})
 				}], function(err) {
-					res.send({
+					res.status(400).send({
 						status: 400,
 						message: err
 					});

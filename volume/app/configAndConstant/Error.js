@@ -27,6 +27,14 @@ var SCRIPT_ERROR = {
 };
 module.exports.SCRIPT_ERROR = SCRIPT_ERROR;
 
+var SCRIPT_TYPE_ERROR = {
+	'SCRIPTID_TYPE_INVALID': {
+		code: 8,
+		message: "Script ID invalid"
+	}
+};
+module.exports.SCRIPT_TYPE_ERROR = SCRIPT_TYPE_ERROR;
+
 var USER_ERROR = {
 	'REQ_INFO_WRONG': {
 		code: 5,
