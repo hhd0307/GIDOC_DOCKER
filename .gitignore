@@ -61,8 +61,8 @@ typings/
 .next
 
 #uploads, output folder
-volume/app/uploads/
-volume/app/output/
+#volume/app/uploads/
+#volume/app/output/
 
 volume/app/python/lib/__pycache__/
 *.pyc
