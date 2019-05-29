@@ -32,6 +32,34 @@ module.exports.findInListId= function(id, callback){
 	// }
 }
 
+module.exports.findByCode= function(scriptCode, callback){
+	// if (id instanceof mongoose.Schema.Types.ObjectId) {
+		script.find({'scriptCode': scriptCode}, function(err, docs){
+			if (docs == null || docs.length == 0) {
+				callback(error.SCRIPT_ERROR);
+			} else {
+				callback(error.null, docs);
+			}
+		});
+	// } else {
+		// callback(error.SCRIPT_TYPE_ERROR)
+	// }
+}
+
+module.exports.findAll= function(callback){
+	// if (id instanceof mongoose.Schema.Types.ObjectId) {
+		script.find({}, function(err, docs){
+			if (docs == null || docs.length == 0) {
+				callback(error.SCRIPT_ERROR);
+			} else {
+				callback(error.null, docs);
+			}
+		});
+	// } else {
+		// callback(error.SCRIPT_TYPE_ERROR)
+	// }
+}
+
 // module.exports.findById= function(id, callback){
 // 	console.log(id)
 // 	script.find({'_id':
