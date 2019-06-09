@@ -70,3 +70,4 @@ volume/app/python/lib/__pycache__/
 volume/app/run-server.sh
 volume/app/wait-for-server.sh
 
+volume/mongo/db/
