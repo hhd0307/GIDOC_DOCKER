@@ -12,11 +12,22 @@ const sendFile = (filePath, res) => {
 
 
 router.post('/', (req, res) => {
-    let {text} = req.body;
+    let {text, region} = req.body;
 
     voice_file = 'voices/20170428.htsvoice'
+    if (region != undefined){
+        voice_file = 'voices/' + region + '/speech.htsvoice'
+    }
+
     async.waterfall([
         function(cb) {
+            if (fs.existsSync(voice_file)) {
+                console.log(voice_file);
+            }
+            else {
+                console.log("hts file not found")
+                voice_file = 'voices/20170428.htsvoice'
+            }
             var spawn = childProcess.spawn;
             var fileName = 'output/sound_' + Math.floor(Math.random()*1000) + '-' + Date.now() + '.wav';
             var process = spawn('python3',

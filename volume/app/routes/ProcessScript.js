@@ -102,8 +102,50 @@ router.get("/", (req, res) => {
 	})
 })
 
-router.get("/page", (req, res) => {
-	res.render('uploadScript')
+router.post("/scriptCode", (req, res) => {
+	let {scriptCode} = req.body;
+	async.waterfall([
+		function (cb) {
+			scriptDB.findByCode(
+				scriptCode,
+				(err, docs) => {
+				if (err) {
+					cb(err);
+				} else {
+					res.send({
+						status: 200,
+						message: docs
+					})
+				}
+			});
+		}
+	], function (err) {
+		res.send({ status: 400, message: err });
+	})
 })
+
+router.get("/all", (req, res) => {
+	async.waterfall([
+		function (cb) {
+			scriptDB.findAll(
+				(err, docs) => {
+				if (err) {
+					cb(err);
+				} else {
+					res.send({
+						status: 200,
+						message: docs
+					})
+				}
+			});
+		}
+	], function (err) {
+		res.send({ status: 400, message: err });
+	})
+})
+
+// router.get("/page", (req, res) => {
+// 	res.render('uploadScript')
+// })
 
 module.exports = router;

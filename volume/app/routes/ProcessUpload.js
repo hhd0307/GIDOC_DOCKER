@@ -4,7 +4,6 @@ var express		= require('express'),
 	fileDB		= require('../db/FileInfo'),
 	userDB		= require('../db/UserInfo'),
 	scriptDB	= require('../db/Script'),
-	// regionDB	= require('../db/Regions'),
 	multer  	= require('multer'),
 	async 		= require('async'),
 	diskStorage = require('../configAndConstant/Config'),
@@ -67,7 +66,7 @@ router.post("/", upload.fields(
 		console.log("begin	")
 		console.log(req.files);
 		console.log(req.body);
-		let {sex, age, email, region, regionCode, nativeLand} = req.body
+		let {fullname, sex, age, email, region, regionCode, nativeLand} = req.body
 		// if (!objectId.isValid(req.body.idScript1) ||
 		// 	req.files.file1 == undefined) {
 		// 		console.log(req.body)
@@ -89,21 +88,20 @@ router.post("/", upload.fields(
 						});
 				},
 				function(cb) { // Check email
-					// var email = req.body.email;
 					if (email) {
 						userDB.findUserByEmail(email, function(err, user) {
 							if (err) {
 								cb(err.message);
 							} else {
-								checkUser(user, email, sex, age, region, regionCode, nativeLand, cb);
+								checkUser(user, email,fullname, sex, age, region, regionCode, nativeLand, cb);
 							}
 						});
 					} else {
-						userDB.findUserByProp(sex, age, region, regionCode, nativeLand, function(err, user) {
+						userDB.findUserByProp(fullname, sex, age, region, regionCode, nativeLand, function(err, user) {
 							if (err) {
 								cb(err.message);
 							} else {
-								checkUser(user, email, sex, age, region, regionCode, nativeLand, cb);
+								checkUser(user, email, fullname, sex, age, region, regionCode, nativeLand, cb);
 							}
 						})
 					}
@@ -172,17 +170,18 @@ router.post("/", upload.fields(
 	}
 )
 
-checkUser = function(user, email,sex, age, region, regionCode, nativeLand, callback) {
+checkUser = function(user, email, fullname, sex, age, region, regionCode, nativeLand, callback) {
 	if (user) { // had prop
 		var id = user._id;
 		if (email) {
-			if (user.region != region || user.age != age || user.sex != sex || user.regionCode != regionCode || user.nativeLand != nativeLand) {
-				user.region = region;
-				user.age = age;
+			if (user.fullname != fullname || user.sex != sex || user.age != age || user.region != region || user.regionCode != regionCode || user.nativeLand != nativeLand) {
+				user.fullname = fullname;
 				user.sex = sex;
+				user.age = age;
+				user.region = region;
 				user.regionCode = regionCode;
 				user.nativeLand = nativeLand;
-				userDB.updateOne({email: email}, {$set: {region: region, age: age, sex: sex, regionCode: regionCode, nativeLand: nativeLand}}, {}, function(err, user) {
+				userDB.updateOne({email: email}, {$set: {fullname: fullname, region: region, age: age, sex: sex, regionCode: regionCode, nativeLand: nativeLand}}, {}, function(err, user) {
 					callback(null, id);
 				});
 			} else {
@@ -193,10 +192,11 @@ checkUser = function(user, email,sex, age, region, regionCode, nativeLand, callb
 		}
 	} else { // did not have prop
 		var user = userDB({
-			email	: email,
+			email: email,
+			fullname: fullname,
+			sex: sex,
+			age: age,
 			region: region,
-			age	: age,
-			sex	: sex,
 			regionCode: regionCode,
 			nativeLand: nativeLand
 		});
