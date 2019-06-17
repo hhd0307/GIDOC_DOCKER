@@ -12,7 +12,7 @@ const sendFile = (filePath, res) => {
 
 
 router.post('/', (req, res) => {
-    let {text, region} = req.body;
+    let {text, region, scriptCode} = req.body;
 
     voice_file = 'voices/20170428.htsvoice'
     if (region != undefined){
@@ -35,6 +35,16 @@ router.post('/', (req, res) => {
             '-t', text, 
             '-v', voice_file, 
             '-o', fileName], {detached: true});
+            console.log('output/' + scriptCode + '.lab');
+            
+            if (scriptCode != undefined){
+                process = spawn('python3',
+                ["./python/textToSound.py", 
+                '-l', 'output/' + scriptCode + '.lab',
+                '-t', text, 
+                '-v', voice_file, 
+                '-o', fileName], {detached: true});
+            }
     
             var timeout = setTimeout(() => {
                 try {

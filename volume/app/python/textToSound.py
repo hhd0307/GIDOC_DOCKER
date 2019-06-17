@@ -11,7 +11,7 @@ from lib.label_format import Utterance
 DEFAULT_LABEL_OUTPUT = 'output/out.lab'
 DEFAULT_SOUND_OUTPUT = '../output/out.wav'
 DEFAULT_HTS_VOICES = 'voices/20170428.htsvoice'
-DEFAULT_SOUND_INTENSITY = 30
+DEFAULT_SOUND_INTENSITY = 10
 DEFAULT_SPEECH_SPEED = 1
 
 def generate_speech(lab_file_path=DEFAULT_LABEL_OUTPUT, 
@@ -53,11 +53,15 @@ if __name__ == '__main__':
     parser.add_argument('-t', dest='text', help='Input text')
     parser.add_argument('-v', dest='voice', help='HTS_voice')
     parser.add_argument('-o', dest='output', help='Output sound file')
+    parser.add_argument('-l', dest='label', help='Label file path')
     
     input_argv = parser.parse_args()
-
-    write_text(input_argv.text)
-    generate_speech(out_speech_path=input_argv.output, voice=input_argv.voice)
+    label_file = input_argv.label
+    if (input_argv.label != None) and (os.path.isfile(label_file)):
+        generate_speech(lab_file_path=label_file, out_speech_path=input_argv.output, voice=input_argv.voice)
+    else:
+        write_text(input_argv.text)
+        generate_speech(out_speech_path=input_argv.output, voice=input_argv.voice)
 
     print('success')
 
